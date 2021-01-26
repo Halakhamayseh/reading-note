@@ -3,5 +3,6 @@
 
 | Topic    |      Url      |  
 |----------|:-------------:|
-| Read1a   |[link1](./read1.md) |
-| Read2b   |[link2](./read2.md)   |  
+| growth mindset   |[link1](./read1.md) |
+| Markdown   |[link2](./read2.md)   |  
+| HTML Summery |[link3](./read3.md)
