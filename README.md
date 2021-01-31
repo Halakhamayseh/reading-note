@@ -8,4 +8,4 @@
 | HTML Summery     |[link3](./read3.md) |
 |JavaScript        |[link4](./read4.md) |
 |For /while loop   |[link5](./read5.md) |
-|Css               |[link5](./read6.md) |
+|Css               |[link6](./read6.md) |
