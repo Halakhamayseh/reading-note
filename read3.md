@@ -32,7 +32,7 @@
 ## Another important tag that is also located inside <head> is the <meta> tag. 
  _<meta> tags with various attributes and values are used._
 
-## The character encoding for the HTML page is specified using the charset attribute:
+## The character encoding for the HTML page is specified using the charset attribute:cd
 ## <meta charset="name of character encoding">
 
 ## Css stands for Cascading Style Sheets. 
