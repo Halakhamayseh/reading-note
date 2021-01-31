@@ -9,3 +9,4 @@
 |JavaScript        |[link4](./read4.md) |
 |For /while loop   |[link5](./read5.md) |
 |Css               |[link6](./read6.md) |
+|Function          |[link7](./read7.md) |
