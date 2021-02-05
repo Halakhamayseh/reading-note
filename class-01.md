@@ -3,40 +3,52 @@
 _describe the structure of a web page, we add code to the words we want to appear on the page_
 
 * Example 
-<html>  
-<body>
-      <h1>This is the Main Heading</h1> 
-           <p>This text might be an introduction to the rest of  the page. And if the page is a long one it might  be split up into several sub-headings.<p>
-                 <h2>This is a Sub-Heading</h2> 
-                      <p>Many long articles have sub-headings so to help  you follow the structure of what is being written.  There may even be sub-sub-headings (or lower-level  headings).</p>
-                            <h2>Another Sub-Heading</h2>
-                                  <p>Here you can see another sub-heading.</p>
-                                    </body>
-                                    </html>
+- <html>  
+- <body>
+  -    h1 This is the Main Heading h1 
+   -        <p>This text might be an introduction to the rest of  the 
+   -  page. And if the page is a long one it might  be split up into several sub-headings. p
+   -   h2 This is a Sub-Heading h2
+    -  p Many long articles have sub-headings so to  help  you follow the structure of what is being written.  There may even be sub-sub-headings (or lower-level  headings).p                 
+    - h2 Another Sub-Heading h2
+-  p Here you can see another sub-heading.p
+  -       body
+-    html
 
 > They tell you something about the information that lies between their opening and closing tags.des Cription 
 
 
->> The opening <html> tag indicates that anything between it and a closing </html> tag is HTML code. 
+>> The opening html tag indicates that anything between it and a closing html tag is HTML code. 
 
->> The <body> tag indicates that anything between it and the closing </body> tag should be shown inside the main browser window.
->> Words between <h1> and </h1> are a main heading.
->> A paragraph of text appears between these <p> and </p> tags.
->> Words between <h2> and </h2> form a sub-heading.
->> Here is another paragraph between opening <p> and closing </p> tags. 
->> Another sub-heading inside <h2> and </h2> tags.
->> Another paragraph inside <p> and </p> tags.The closing </body> tag indicates the end of what should appear in the main browser window.
->> The closing </html> tag indicates that it is the end of the HTML code.
+>> The body tag indicates that anything between it and the closing body tag should be shown inside the main browser window.
 
-# Attributes teLL uS more about eLementS
+>> Words between h1 and h1 are a main heading.
+
+>> A paragraph of text appears between these p and p tags.
+
+>> Words between h2 and h2 form a sub-heading.
+
+>> Here is another paragraph between opening p and closing p tags. 
+
+>> Another sub-heading inside h2 and h2 tags.
+
+>> Another paragraph inside p and p tags.The closing body tag indicates the end of what should appear in the main browser window.
+
+>> The closing html tag indicates that it is the end of the HTML code.
+
+# Attributes tell us more about eLements
+ 
  >> They appear on the opening tag of the element and are made up of two parts: a name and a value, separated by an equals sign.
+ 
  >> Opening tags can carry attributes.
->> Attributes require a name and a value
->> you need to know what tags are available for you to use, what they do, and where they can go.
+
+ >> Attributes require a name and a value
+ 
+ >> you need to know what tags are available for you to use, what they do, and where they can go.
 
  * Example
 
- > <p lang="en-us">Paragraph in English</p>
+ > [<p lang="en-us">Paragraph in English</p>]
  
  - Tags usually come in pairs
  
@@ -81,8 +93,8 @@ extensions. There are four types of elements:
 >>As you can see, these elements are quite expressive and you can immediately get an idea of the intended purpose. The following figure shows a sample page layout designed using these elements
 
 + header
-+ footer>
-+ section>
++ footer
++ section
 + article
 + aside
 + nav
@@ -95,63 +107,71 @@ extensions. There are four types of elements:
 # Nav Element
 >The **nav**element is intended to house navigation menus or any kind of navigational structure such as hyperlinks.
 
-**nav**
-**ul**
+- **nav**
+
+- **ul**
+
 - **<li><a href="#">Home</a></li>**
+
 - **<li><a href="#">About Us</a></li>**
+
 - **<li><a href="#">Contact Us</a></li>**
-**ul**
-**nav**
+
+- **ul**
+
+- **nav**
+
 
 # Section Element
- > the **<section>** element represents a generic section of a document or application. The **<section>** element should not be confused with the **<div>** element. The **<section>** element is a thematic grouping of content whereas the **<div>** doesn't have any such restriction. 
+ > the **section** element represents a generic section of a document or application. The **section** element should not be confused with the **div** element. The **section** element is a thematic grouping of content whereas the **div** doesn't have any such restriction. 
 
-- **<section>**
-  <h1>This is a section heading</h1>
-  <p>
+- **section**
+  
+  * h1This is a section heading h1
+  - p
     Hello world! Hello world! Hello world!
     Hello world! Hello world! Hello world!
     Hello world! Hello world! Hello world!
-  </p>
-</section>
+  - p
+**section**
 
 
 
 # Article Element
 >It is expected that the content in the article element should be independently distributable or reusable as in the case of content syndication
 
--<article>
-  <h1>This is article heading</h1>
-  <p>
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-  </p>
-</article>
+- article
+  * h1 This is article heading h1
+  * p
+    - Hello world! Hello world! Hello world!
+    - Hello world! Hello world! Hello world!
+    - Hello world! Hello world! Hello world!
+  * p
+**article**
 
 
 # Asid Element
->The <aside> element is intended to house content that is related to the surrounding content but at the same time is a standalone piece of content in itself. 
+>The aside element is intended to house content that is related to the surrounding content but at the same time is a standalone piece of content in itself. 
 
--<aside>
-  <figure>
-    <img src="/" height="100px" width="100px" />
-    <figcaption>Figure caption goes here</figcaption>
-  </figure>
-  <p>
+- aside
+ - figure
+   - <img src="/" height="100px" width="100px" />
+    - <figcaption>Figure caption goes here</figcaption>
+  - figure
+   p
     Hello world! Hello world! Hello world!
     Hello world! Hello world! Hello world!
-  </p>
-</aside>
+   p
+- aside
 
 
 # Footer Element
-> The <footer> element represents the footer of the whole page or a <section> element
+> The footer element represents the footer of the whole page or a section element
 
--<footer>
-  <hr>
+- footer 
+  
   Copyright (C) 2013. All rights reserved.
-</footer>
+- footer
 
 
 
