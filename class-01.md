@@ -75,38 +75,38 @@ extensions. There are four types of elements:
 ## A web page being rendered in the browser consists of many things - logo, informative text, pictures, hyperlinks, navigational structure and more.
 
 > Semantic Markup
->>Semantic markup expresses its meaning and purpose clearly to the developers and to the browser .  **<div class="header">...</div>**
+>>Semantic markup expresses its meaning and purpose clearly to the developers and to the browser .  **div class="header".../div**
 
 
 >>As you can see, these elements are quite expressive and you can immediately get an idea of the intended purpose. The following figure shows a sample page layout designed using these elements
 
-+ <header>
-+ <footer>
-+ <section>
-+ <article>
-+ <aside>
-+ <nav>
++ header
++ footer>
++ section>
++ article
++ aside
++ nav
 
 # Header Element
- > The <header> element represents the header of the whole page or a section of it.
+ > The **header**element represents the header of the whole page or a section of it.
 
-- <header><h1>This is page heading</h1></header>
+- **header** **h1**This is page heading **h1** **header**
 
 # Nav Element
->The <nav> element is intended to house navigation menus or any kind of navigational structure such as hyperlinks.
+>The **nav**element is intended to house navigation menus or any kind of navigational structure such as hyperlinks.
 
-- <nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Contact Us</a></li>
-</ul>
-</nav>
+**nav**
+**ul**
+- **<li><a href="#">Home</a></li>**
+- **<li><a href="#">About Us</a></li>**
+- **<li><a href="#">Contact Us</a></li>**
+**ul**
+**nav**
 
 # Section Element
- > the <section> element represents a generic section of a document or application. The <section> element should not be confused with the <div> element. The <section> element is a thematic grouping of content whereas the <div> doesn't have any such restriction. 
+ > the **<section>** element represents a generic section of a document or application. The **<section>** element should not be confused with the **<div>** element. The **<section>** element is a thematic grouping of content whereas the **<div>** doesn't have any such restriction. 
 
-- <section>
+- **<section>**
   <h1>This is a section heading</h1>
   <p>
     Hello world! Hello world! Hello world!
@@ -135,7 +135,7 @@ extensions. There are four types of elements:
 
 -<aside>
   <figure>
-    <img src="images/laptop.png" height="100px" width="100px" />
+    <img src="/" height="100px" width="100px" />
     <figcaption>Figure caption goes here</figcaption>
   </figure>
   <p>
