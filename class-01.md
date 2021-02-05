@@ -102,18 +102,18 @@ extensions. There are four types of elements:
 # Header Element
  > The **header**element represents the header of the whole page or a section of it.
 
-- **header** **h1**This is page heading **h1** **header**
+- **header** **h1** This is page heading **h1** **header**
 
 # Nav Element
->The **nav**element is intended to house navigation menus or any kind of navigational structure such as hyperlinks.
+>The **nav** element is intended to house navigation menus or any kind of navigational structure such as hyperlinks.
 
-- **nav**
-- **ul**
-- **<li><a href="#">Home</a></li>**
-- **<li><a href="#">About Us</a></li>**
-- **<li><a href="#">Contact Us</a></li>**
-- **ul**
-- **nav**
+ **nav**
+ **ul** 
+ **<li><a href="#">Home</a></li>**
+ **<li><a href="#">About Us</a></li>**
+ **<li><a href="#">Contact Us</a></li>**
+ **ul**
+**nav**
 
 
 # Section Element
