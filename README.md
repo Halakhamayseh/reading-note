@@ -17,4 +17,4 @@
 # Class 201 
 | Topic            |      Url                |  
 |------------------|:-----------------------:|
-| html,css,js      |[link1](./class-01.md)   |
+| class-01      |[link1](./class-01.md)   |
