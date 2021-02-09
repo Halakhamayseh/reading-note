@@ -20,3 +20,4 @@
 | class-01         |[link1](./class-01.md)   |
 | class-02         |[link2](./class-02.md)   |
 | class-03         |[link3](./class-03.md)   |
+| class-04         |[link4](./class-04.md)   |
