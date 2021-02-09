@@ -106,3 +106,27 @@ multiple style sheets. Inside the
 `<head>` element is a separate
 `<link>` element for each style
 sheet
+
+# WHAT IS A FUNCTION? 
+>> Functions let you group a series of statements together to perform a
+specific task. If different parts of a script repeat the same task, you can
+reuse the function (rather than repeating the same set of statements). 
+- `function calc() let area=w*h; return area; ` 
+
+# Reasons for Pair Programming
+
+1. Iterative loops.
+2. Code reviews.
+3.  Fast feedback.
+4.  Error checking 
+5. linting
+
+# How does pair programming work?
+>> pair programming commonly involves two roles:
+>>> The Driver and The Navigator.
+- The Driver is the programmer who is typing and the only one whose hands are on the keyboard.
+
+- The Navigator uses their words to guide the Driver but does not provide any direct input to the computer.
+
+# Why pair program?
+>> understanding what written language intends to convey Writing producing from scratch a meaningful
