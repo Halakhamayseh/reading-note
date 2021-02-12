@@ -22,3 +22,4 @@
 | class-03         |[link3](./class-03.md)   |
 | class-04         |[link4](./class-04.md)   |
 | class-05         |[link5](./class-05.md)   |
+| class-06         |[link6](./class-06.md)   |
