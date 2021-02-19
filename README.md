@@ -26,4 +26,5 @@
 | class-07         |[link7](./class-07.md)   |
 | class-08         |[link8](./class-08.md)   |
 | class-09         |[link9](./class-09.md)   |
-| class-10         |[link10](./class-10.md)   |
+| class-10         |[link10](./class-10.md)  |
+| class-11         |[link11](./class-11.md)  |
